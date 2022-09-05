@@ -1,2 +1,4 @@
 #!/bin/bash
 cat /etc/passwd
+#!/bin/bash
+find . -empty | rev | cut -d "/" -f 1 | rev
